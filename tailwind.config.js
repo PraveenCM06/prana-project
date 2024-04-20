@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-
 const withMT = require("@material-tailwind/react/utils/withMT");
  
 module.exports = withMT({
@@ -12,9 +11,10 @@ module.exports = withMT({
   theme: {
     extend: {
       backgroundImage: {
-      'hero-image': "url('./src/assets/hero.png')",
-      'hero-image2': "url('./src/assets/hero2.png')",
-      'qa-bg-image': "url('./src/assets/qa-bg.png')",
+      'hero-image': "url('./public/hero.png')",
+      'hero-image2': "url('./public/hero2.png')",
+      'qa-bg-image': "url('./public/qa-bg.png')",
+
     }},
   },
   plugins: [],
