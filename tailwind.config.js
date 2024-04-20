@@ -11,9 +11,9 @@ module.exports = withMT({
   theme: {
     extend: {
       backgroundImage: {
-      'hero-image': "url('./public/hero.png')",
-      'hero-image2': "url('./public/hero2.png')",
-      'qa-bg-image': "url('./public/qa-bg.png')",
+      'hero-image': "url('/hero.png')",
+      'hero-image2': "url('/hero2.png')",
+      'qa-bg-image': "url('/qa-bg.png')",
 
     }},
   },
