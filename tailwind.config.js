@@ -15,7 +15,6 @@ module.exports = withMT({
       'hero-image': "url('./src/assets/hero.png')",
       'hero-image2': "url('./src/assets/hero2.png')",
       'qa-bg-image': "url('./src/assets/qa-bg.png')",
-
     }},
   },
   plugins: [],
